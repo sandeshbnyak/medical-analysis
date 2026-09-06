@@ -1,0 +1,1 @@
+"""Medical literature assistant package."""
