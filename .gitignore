@@ -1,10 +1,36 @@
+# Python cache and virtual environments
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 .venv/
 venv/
+.python-version
+
+# Local environment and secrets
 .env
-*.db
+.env.*
+!.env.example
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Streamlit / editor / OS artifacts
+.streamlit/
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+*.log
+*.db
+*.sqlite3
+
+# Large local data
 *.pdf
+models/
+checkpoints/
